@@ -9,7 +9,7 @@ export const GifGrid = ({category}) => {
              url: gif.images.original.url,
              title:gif.title
          }))
-        console.warn({gifs})
+       
      }
      getGif()
     
